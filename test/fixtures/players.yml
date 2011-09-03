@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  hp: 1
+  defense: 1
+  money: 1
+  level: 1
+  exp: 1
+
+two:
+  name: MyString
+  hp: 1
+  defense: 1
+  money: 1
+  level: 1
+  exp: 1

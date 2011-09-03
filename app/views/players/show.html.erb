@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @player.name %>
+</p>
+
+<p>
+  <b>Hp:</b>
+  <%= @player.hp %>
+</p>
+
+<p>
+  <b>Defense:</b>
+  <%= @player.defense %>
+</p>
+
+<p>
+  <b>Money:</b>
+  <%= @player.money %>
+</p>
+
+<p>
+  <b>Level:</b>
+  <%= @player.level %>
+</p>
+
+<p>
+  <b>Exp:</b>
+  <%= @player.exp %>
+</p>
+
+
+<%= link_to 'Edit', edit_player_path(@player) %> |
+<%= link_to 'Back', players_path %>
